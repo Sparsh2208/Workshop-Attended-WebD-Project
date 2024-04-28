@@ -1,0 +1,56 @@
+# Workshop Attended: EventHub - Centralized Event Management System
+
+## Introduction
+EventHub is a comprehensive solution designed to address the inefficiencies in managing academic and professional events. By integrating cutting-edge technologies, EventHub offers a seamless, interactive, and efficient experience for both organizers and attendees.
+
+## Prerequisites
+Before setting up EventHub, ensure you have the following prerequisites:
+- **Wamp Server**: Installed and running.
+- **Node.js**: Installed on your system.
+
+## Installation Steps
+1. **Download and Extract the Project**:
+   - Download the project zip file from the provided Google Drive link.
+   - Extract it to your desired location on your computer.
+
+2. **Navigate to the Project Directory**:
+   - Open your terminal or command prompt.
+   - Change the directory to the extracted project folder:
+     ```bash
+     cd path/to/workshop-attended
+     ```
+
+3. **Install Dependencies**:
+   - Install the project dependencies using npm:
+     ```bash
+     npm install
+     ```
+
+4. **Configure the Backend Database (SQL Express)**:
+   - Locate the configuration file for the backend (e.g., `config.js`).
+   - Update it with your SQL Express database connection details, including host, username, password, and database name.
+
+5. **Start the Node.js Server**:
+   - Start the Node.js server:
+     ```bash
+     npm start
+     ```
+
+6. **Access the Application**:
+   - Once the server is running, open your web browser.
+   - Navigate to http://localhost:<port>, where `<port>` is the port on which your Node.js server is running (usually 3000 by default unless specified otherwise).
+
+7. **Test the Application**:
+   - Test the functionality of the application to ensure everything is working as expected.
+
+## Additional Notes
+- Make sure all dependencies are installed correctly before starting the server.
+- Double-check the backend configuration to ensure it matches your SQL Express database setup.
+- If you encounter any errors or issues during the setup process, refer to the project documentation or seek assistance from the project contributors.
+
+## License
+EventHub is released under the MIT License. See the LICENSE file for more details.
+
+
+Drive link : 
+https://drive.google.com/file/d/1A2vwDgCwhRy91iKV3GQ2TYC_RKwmIRS_/view?usp=sharing
